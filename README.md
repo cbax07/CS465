@@ -1,2 +1,13 @@
-# CS465
-CS-465 Full Stack Development with MEAN
+# CS-465 Full Stack Development with MEAN
+
+In this project Express HTML was used to serve pages up to the client on request. JavaScript was used to insert logic/methods into the pages provided to the client to allow some of the heavy lifting to be done by the client’s browser, reduce the load on the server, and reduce response time on requests. The SPA was used to provide all the pages up front and upon request, certain components would be loaded dynamically. This significantly reduces calls to the server and increases site load speed, by only needing to call APIs to get user specific or dynamic data. 
+
+A NoSQL MongoDB database was used for speed, flexibility, and scalability. Unlike SQL databases MongoDB stores all records as documents in collections. This allows you to modify what you are saving to a collection, such as adding new keys, without having to modify existing data. This flexibility is good for a new site because it makes creating new objects easy, as well as good for scaling when you want to grow and change your site to meet customer demands.
+
+Where JavaScript is a scripting language, JSON is just a file format. Conforming data to the standard JSON format allows both the back-end and front-end to know how to read the data that is passing back and forth. JSON is a standard in modern development which makes it easy to integrate third party frameworks and APIs. 
+
+Two main examples of refactoring code in this project to improve functionality were moving duplicated html code to components that could be called from each page and updating the pages to dynamically load records from the database instead of just hard coding each record as a list item.
+
+Methods, specifically CRUD functions, allow for a standardized approach to containing business logic in an API. Endpoints provide us with a URL to access those methods, either publicly or privately with some sort of authentication, such as tokens or certificates. Security can be applied as either authentication or authorization. This means we can add a layer of security as to who can access endpoints, as well as apply rules to what those users can access via the endpoint if they do have access.
+
+Prior to starting this class, I had a basic understanding about what each of these technologies were, but not the big picture of how they worked together or their intricacies. Through this class I have gained a better understanding of the full-stack development process, got a better in-depth understanding about how each of these technologies work, learned a lot of best practices for both back-end and front-end development, and most importantly, have established a good grasp on how all these pieces work together. I believe this class and project has taught me a lot about what full stack development is, and what I need to learn/do to become a full stack developer.
