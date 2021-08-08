@@ -1,5 +1,4 @@
-# CS465
-CS-465 Full Stack Development with MEAN
+# CS-465 Full Stack Development with MEAN
 
 In this project Express HTML was used to serve pages up to the client on request. JavaScript was used to insert logic/methods into the pages provided to the client to allow some of the heavy lifting to be done by the client’s browser, reduce the load on the server, and reduce response time on requests. The SPA was used to provide all the pages up front and upon request, certain components would be loaded dynamically. This significantly reduces calls to the server and increases site load speed, by only needing to call APIs to get user specific or dynamic data. 
 
